@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu aniversário</title>
+    <!-- Page fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- File style -->
     <link rel="stylesheet" href="styles/main.scss">
 </head>
+
 <body>
-    <img src="./images/cartao_aniversario.png" alt="">
+    <!-- hero header -->
+    <header class="hero">
+        <div class="container">
+            <img class="hero__puppet" src="./images/pinguin_aniversario.png" alt="Pinguin aniversário">
+            <p class="hero__text">
+                Meu Aniversário acontecerá em 10d 12h 20m 15s
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Ebac Parque - Parcel - São Paulo - SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Estacionamento</b>
+                        Gratuito
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        23/11/2023
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar Presença
+                </a>
+            </div>
+        </div>
+    </header>
 
     <script src="scripts/main.js"></script>
 </body>
+
 </html>
