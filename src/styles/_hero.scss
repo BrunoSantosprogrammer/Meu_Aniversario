@@ -19,7 +19,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color:variables.$secondaryTextColor;
+        background-color: variables.$secondaryTextColor;
         opacity: .3;
     }
 
@@ -42,11 +42,11 @@
     @media(max-width: 640px) {
         padding: 40px 0;
 
-        &__puppet{
+        &__puppet {
             height: 100px;
         }
 
-        &__text{
+        &__text {
             font-size: 22px;
             line-height: 24px;
             margin: 24px 0;

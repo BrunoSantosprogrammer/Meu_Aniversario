@@ -2,17 +2,20 @@
 
 .event {
     padding: 80px 0;
-    
-    &--ebac-space{
+
+    &--ebac-space {
         background-image: linear-gradient(variables.$slateBlue, variables.$DeepPink);
     }
-    &--playground{
+
+    &--playground {
         background-image: linear-gradient(variables.$DeepPink, variables.$Red);
     }
-    &--playroom{
+
+    &--playroom {
         background-image: linear-gradient(variables.$Red, variables.$DarkOrange);
     }
-    &--gifts{
+
+    &--gifts {
         background-image: linear-gradient(variables.$DarkOrange, variables.$DeepPink);
     }
 
