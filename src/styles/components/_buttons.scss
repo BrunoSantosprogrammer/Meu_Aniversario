@@ -1,3 +1,5 @@
+@use "../variables";
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -8,14 +10,14 @@
     white-space: nowrap;
 
     &:hover {
-        background-color: #FF00FF;
-        color: #4B0082;
-        border: 2px solid #4B0082;
+        background-color: variables.$DeepPink;
+        color: variables.$textColor;
+        border: 2px solid variables.$slateBlue;
     }
 
     &--primary {
-        color: #fff;
-        background-color: #4B0082;
+        color: variables.$textColor;
+        background-color: variables.$slateBlue;
     }
 
     @media (max-width:640px){
